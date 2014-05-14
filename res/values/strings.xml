@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QUOTES</string>
+    <string name="person_name">Name</string>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <string name="red_string">View Quote</string>
+    <string name="green_string">Create Quote</string>
+    <string name="select">Select A Project</string>
+</resources>
