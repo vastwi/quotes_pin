@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.Example_one"
+          package="com.example.quotes_pin"
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="15"
-    android:targetSdkVersion="19"/>
+              android:targetSdkVersion="19"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application android:label="@string/app_name" android:icon="@drawable/quote">
-        <activity android:name="MyActivity"
+        <activity android:name="com.example.Example_one.MyActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".SideActivity" >
+                android:name="com.example.Example_one.SideActivity">
         </activity>
     </application>
 </manifest>

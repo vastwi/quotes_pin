@@ -6,65 +6,66 @@
         android:orientation="vertical"
         android:id="@+id/list_quote">
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
 
     <com.example.Grid.util.DynamicHeightImageView
             android:id="@+id/image"
-            android:src="@drawable/elephant_icon"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:src="@drawable/rajini_new"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:gravity="center"
             />
 
+
+
+        <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:gravity="right"
+                android:textSize="18sp"
+                android:textColor="#040404"
+                android:typeface="sans"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/project_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_below="@id/name"
+                android:gravity="right"
+                android:textColor="#343434"
+                android:textSize="10dip"/>
+
+        <!--android:paddingBottom="4dp"-->
+        <!--android:paddingTop="4dp"-->
+
+    </RelativeLayout>
+
     <TextView
-            android:id="@+id/name"
-            android:layout_width="match_parent"
+            android:id="@+id/quote_view"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
+            android:paddingBottom="8dp"
             android:paddingTop="4dp"
             android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:textSize="18sp"/>
+            android:background="@drawable/post_it"
+            android:textColor="#FF0000"
+            android:paddingRight="8dp" android:layout_gravity="center"/>
 
     <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
             android:background="#ccc" />
 
-    <TextView
-            android:id="@+id/quote_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="8dp"
-            android:paddingTop="4dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp" />
-
-    <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:id="@+id/quote_view"-->
-            <!--android:background="@drawable/brown_2"-->
-            <!--android:textColor="@color/red"-->
-            <!--android:layout_alignParentLeft="true"-->
-            <!--android:layout_marginLeft="49dp"-->
-            <!--android:layout_alignParentTop="true"/>-->
-
-    <!--<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"><![CDATA[-->
-        <!--android:layout_below="@+id/textView"/>-->
-
-        <!--]]>&lt;!&ndash;<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:text="Name Text"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:id="@+id/nameview"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:background="@drawable/image_www"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:layout_alignParentRight="true" android:layout_marginLeft="49dp"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:layout_alignParentBottom="true"/>&ndash;&gt;-->
-
-    <!--</RelativeLayout>-->
-    <!--<ImageView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:id="@+id/imageView"-->
-            <!--android:src="@drawable/elephant_icon"-->
-            <!--android:layout_alignParentTop="true" android:layout_alignRight="@+id/quote_view"-->
-            <!--android:layout_alignEnd="@+id/quote_view"/>-->
 </LinearLayout>

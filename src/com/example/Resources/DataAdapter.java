@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-import com.example.Example_one.R;
 import com.example.Grid.util.DynamicHeightImageView;
+import com.example.quotes_pin.R;
 
 import java.util.List;
 
@@ -36,8 +36,9 @@ public class DataAdapter extends ArrayAdapter<Data> {
 
             holder = new DealHolder();
             holder.image = (DynamicHeightImageView)row.findViewById(R.id.image);
-            holder.title = (TextView)row.findViewById(R.id.name);
-            holder.description = (TextView)row.findViewById(R.id.quote_view);
+            holder.name = (TextView)row.findViewById(R.id.name);
+            holder.quote = (TextView)row.findViewById(R.id.quote_view);
+            holder.project_name = (TextView)row.findViewById(R.id.project_name);
 
             row.setTag(holder);
         }
@@ -49,16 +50,18 @@ public class DataAdapter extends ArrayAdapter<Data> {
 //        holder.image.setImageResource(R.drawable.img);
 
         holder.image.setHeightRatio(1.0);
-        holder.title.setText(data.name);
-        holder.description.setText(data.quote);
+        holder.name.setText(data.name);
+        holder.quote.setText(data.quote);
+        holder.project_name.setText(data.project_name);
 
         return row;
     }
 
     static class DealHolder {
         DynamicHeightImageView image;
-        TextView title;
-        TextView description;
+        TextView name;
+        TextView quote;
+        TextView project_name;
     }
 }
 
