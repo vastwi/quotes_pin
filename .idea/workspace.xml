@@ -5,6 +5,7 @@
       <profile>
         <option name="device" value="2.7in QVGA" />
         <option name="deviceConfiguration" value="Portrait" />
+        <option name="localeLanguage" value="en" />
         <option name="targetHashString" value="android-19" />
         <option name="theme" value="Theme" />
       </profile>
@@ -29,20 +30,117 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" name="Default" comment="" />
     <ignored path="another.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400135942389" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400479807825" ignored="false" />
+    <file path="/fragment.java" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400496273099" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400492027874" ignored="false" />
     <file path="/quote_row.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400238101914" ignored="false" />
     <file path="/Data.java" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400146108224" ignored="false" />
     <file path="/DataAdapter.java" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400343492589" ignored="false" />
-    <file path="/MyActivity.java" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400146233441" ignored="false" />
+    <file path="/MyActivity.java" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400504535648" ignored="false" />
     <file path="/a.dummy" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400219960049" ignored="false" />
     <file path="/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400479835840" ignored="false" />
+    <file path="/Dummy.txt" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400497536655" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values/themes_base.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values/themes.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values/attrs.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout-v14/abc_activity_chooser_view.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout-v11/abc_action_bar_decor.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout-v11/abc_simple_decor.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout/abc_action_bar_decor_include.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout/abc_action_bar_decor_overlay.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout/abc_action_bar_decor.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout/abc_activity_chooser_view_include.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout/abc_search_dropdown_item_icons_2line.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout/abc_activity_chooser_view.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout/abc_simple_decor.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout/abc_activity_chooser_view_list_item.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/layout/abc_list_menu_item_layout.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/anim/abc_fade_out.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/anim/abc_fade_in.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-lv/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-zu/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-zh-rTW/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-zh-rHK/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-zh-rCN/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-vi/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-v14/themes_base.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-v14/styles_base.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-uk/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-tr/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-tl/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_list_selector_holo_light.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-th/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_list_selector_background_transition_holo_light.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_spinner_ab_holo_light.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_tab_indicator_ab_holo.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-sw/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_search_dropdown_dark.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168904" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-sv/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_textfield_searchview_right_holo_dark.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-sr/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_textfield_searchview_right_holo_light.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-sl/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_ic_clear_holo_light.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-sk/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_item_background_holo_dark.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-ru/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_list_selector_holo_dark.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-ro/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_ic_clear.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-pt-rPT/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_item_background_holo_light.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-pt/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_spinner_ab_holo_dark.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-pl/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_search_dropdown_light.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-nl/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_textfield_searchview_holo_dark.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-nb/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_list_selector_background_transition_holo_dark.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-ms-rMY/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/drawable/abc_textfield_searchview_holo_light.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-mn-rMN/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/color/abc_search_url_text_holo.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-lt/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-lo-rLA/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-large-v14/themes_base.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-large/themes_base.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-ko/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-km-rKH/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-ka-rGE/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-ja/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-iw/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-it/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-in/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-hy-rAM/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-hu/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-hr/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-hi/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-fr-rCA/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-fr/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-fi/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-fa/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-et-rEE/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-es-rUS/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-es/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-en-rIN/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-en-rGB/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-el/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-de/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-da/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-cs/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168905" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-ca/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168906" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-bg/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168906" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-ar/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168906" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-am/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168906" ignored="false" />
+    <file path="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values-af/strings.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400494168906" ignored="false" />
+    <file path="/menu_main.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400499084001" ignored="false" />
+    <file path="/main.xml" changelist="9999ab34-4bb4-4ecf-b865-8a2ae6fcade9" time="1400502790192" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,67 +201,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Resources/Data.java">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/Example_one/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="97" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="70" column="42" selection-start="2649" selection-end="2649" vertical-scroll-proportion="0.43467337">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1156#1164#0" expanded="true" />
+                <element signature="e#4248#5445#0" expanded="true" />
+                <element signature="e#5434#5435#0" expanded="true" />
+                <element signature="e#7757#7763#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Resources/DataAdapter.java">
+      <file leaf-file-name="drawer_list_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/drawer_list_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="55" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0">
+            <state line="5" column="38" selection-start="272" selection-end="272" vertical-scroll-proportion="-2.7777777">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quote_row.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/quote_row.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="37" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
+            <state line="84" column="24" selection-start="3329" selection-end="3329" vertical-scroll-proportion="-4.148148">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicHeightImageView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Grid/util/DynamicHeightImageView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Example_one/MyActivity.java">
+      <file leaf-file-name="SideActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/Example_one/SideActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="53" selection-start="5198" selection-end="5198" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuotesServiceAdapters.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Resources/QuotesServiceAdapters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="67" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="42" selection-start="419" selection-end="419" vertical-scroll-proportion="0.19607843">
+            <state line="99" column="43" selection-start="3875" selection-end="3875" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -172,7 +252,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,15 +268,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/Example_one/SideActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Grid/StaggeredGridView.java" />
         <option value="$PROJECT_DIR$/src/com/example/Resources/Data.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Example_one/MyActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/quote_row.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/Resources/DataAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/example/Resources/QuotesServiceAdapters.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/Resources/DataAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Grid/StaggeredGridView.java" />
+        <option value="$PROJECT_DIR$/res/layout/navigation_drawer.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/Grid/ExtendableListView.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/drawer_list_item.xml" />
+        <option value="$PROJECT_DIR$/res/menu/menu_main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/Example_one/SideActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Example_one/MyActivity.java" />
       </list>
     </option>
   </component>
@@ -280,25 +365,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quotes_pin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quotes_pin" />
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="Grid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,10 +388,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,6 +409,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotes_pin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotes_pin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotes_pin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcompat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotes_pin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcompat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -345,24 +454,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v4/android-support-v4.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/libs/android-support-v7-appcompat.jar!/" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT35FW920344" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -420,19 +530,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -459,6 +556,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -575,27 +685,49 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1169000" />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="795" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5288889" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32614943" sideWeight="0.5288889" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.7254335" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47111112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33037037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2482066" sideWeight="0.5288889" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2482066" sideWeight="0.66962963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3214815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.81195337" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -603,10 +735,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686782" sideWeight="0.81195337" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.7254335" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -684,111 +814,117 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/Grid/ExtendableListView.java">
+    <entry file="file://$USER_HOME$/tools/android-sdk-macosx/sources/android-19/android/os/Looper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="22" selection-start="2279" selection-end="2279" vertical-scroll-proportion="-16.935484">
+        <state line="136" column="0" selection-start="4763" selection-end="4763" vertical-scroll-proportion="0.331307">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/tools/android-sdk-macosx/sources/android-19/java/util/ArrayList.java">
+    <entry file="file://$USER_HOME$/tools/android-sdk-macosx/sources/android-19/android/widget/ArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="29" selection-start="4069" selection-end="4069" vertical-scroll-proportion="0.33333334" />
+        <state line="151" column="11" selection-start="5710" selection-end="5710" vertical-scroll-proportion="0.4924012">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/elephant_icon.png">
+    <entry file="file://$USER_HOME$/tools/android-sdk-macosx/extras/android/support/v7/appcompat/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="0" selection-end="121" vertical-scroll-proportion="0.14962594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/back.9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/search_small.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Grid/ExtendableListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="42" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/filter.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="46" selection-start="573" selection-end="573" vertical-scroll-proportion="0.4114713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/menu_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="510" selection-end="510" vertical-scroll-proportion="0.45990565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/quote.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="24" selection-start="2435" selection-end="2435" vertical-scroll-proportion="0.8801956">
+        <state line="84" column="24" selection-start="3329" selection-end="3329" vertical-scroll-proportion="-4.148148">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/post_it.9.png">
-      <provider selected="true" editor-type-id="images">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Resources/Data.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/drawer_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="97" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+        <state line="5" column="38" selection-start="272" selection-end="272" vertical-scroll-proportion="-2.7777777">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Example_one/SideActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="43" selection-start="3875" selection-end="3875" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Example_one/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="53" selection-start="5198" selection-end="5198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Grid/util/DynamicHeightImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/rajini_new.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/rajini_old.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Grid/StaggeredGridView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="295" column="0" selection-start="10416" selection-end="10416" vertical-scroll-proportion="0.8888889">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/quote_row.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Resources/DataAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="55" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Resources/QuotesServiceAdapters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="67" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="419" selection-end="419" vertical-scroll-proportion="0.19607843">
-          <folding />
+        <state line="70" column="42" selection-start="2649" selection-end="2649" vertical-scroll-proportion="0.43467337">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1156#1164#0" expanded="true" />
+            <element signature="e#4248#5445#0" expanded="true" />
+            <element signature="e#5434#5435#0" expanded="true" />
+            <element signature="e#7757#7763#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -809,7 +945,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Android (quotes_pin)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -849,7 +985,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

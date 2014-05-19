@@ -7,4 +7,6 @@
     <string name="red_string">View Quote</string>
     <string name="green_string">Create Quote</string>
     <string name="select">Select A Project</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 </resources>

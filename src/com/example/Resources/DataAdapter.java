@@ -7,8 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
 import com.example.Example_one.MyActivity;
+import com.example.Example_one.R;
 import com.example.Grid.util.DynamicHeightImageView;
-import com.example.quotes_pin.R;
+//import com.example.quotes_pin.R;
 
 import java.util.List;
 

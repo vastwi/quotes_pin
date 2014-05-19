@@ -24,7 +24,7 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.view.View;
 import android.view.ViewGroup;
-import com.example.quotes_pin.R;
+import com.example.Example_one.R;
 
 import java.util.Arrays;
 

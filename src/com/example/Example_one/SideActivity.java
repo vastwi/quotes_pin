@@ -23,16 +23,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import com.example.quotes_pin.R;
-
-
-/**
- * Created with IntelliJ IDEA.
- * User: jayachk
- * Date: 4/25/14
- * Time: 5:34 PM
- * To change this template use File | Settings | File Templates.
- */
+//import com.example.quotes_pin.R;
 
 public class SideActivity extends Activity implements View.OnClickListener {
 
@@ -59,13 +50,7 @@ public class SideActivity extends Activity implements View.OnClickListener {
                 e.printStackTrace();
             }
 
-            // Get a reference to the AutoCompleteTextView in the layout
             AutoCompleteTextView textView = (AutoCompleteTextView) findViewById(R.id.project);
-// Get the string array
-//            String[] countries = getResources().getStringArray(R.array.countries_array);
-// Create the adapter and set it to the AutoCompleteTextView
-//            ArrayAdapter<String> adapter =
-//                    new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, countries);
             ArrayAdapter<String>adapter = new ArrayAdapter<String> (this,
                     android.R.layout.simple_list_item_1,listList);
             textView.setAdapter(adapter);

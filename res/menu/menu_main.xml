@@ -1,15 +1,16 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"  >
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:Quotes="http://schemas.android.com/apk/res-auto">
 
     <item
             android:id="@+id/list_quote"
             android:orderInCategory="1"
             android:icon="@drawable/list"
             android:title="@string/red_string"
-            android:showAsAction="ifRoom"/>
+            Quotes:showAsAction="ifRoom"/>
     <item
             android:id="@+id/add_quote"
             android:orderInCategory="2"
             android:icon="@drawable/plus_orange"
-            android:showAsAction="ifRoom"
+            Quotes:showAsAction="always"
             android:title="@string/green_string"/>
 </menu>
