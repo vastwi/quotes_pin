@@ -1,11 +1,12 @@
 package com.example.Resources;
 
 import android.app.Activity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
+import android.widget.*;
+import com.example.Example_one.MyActivity;
 import com.example.Grid.util.DynamicHeightImageView;
 import com.example.quotes_pin.R;
 
@@ -27,20 +28,44 @@ public class DataAdapter extends ArrayAdapter<Data> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View row = convertView;
+
+         View row = convertView;
+//        final View row;
         final DealHolder holder;
 
         if (row == null) {
             LayoutInflater inflater = activity.getLayoutInflater();
             row = inflater.inflate(resource, parent, false);
+            final View row2 = row;
 
             holder = new DealHolder();
             holder.image = (DynamicHeightImageView)row.findViewById(R.id.image);
             holder.name = (TextView)row.findViewById(R.id.name);
-            holder.quote = (TextView)row.findViewById(R.id.quote_view);
             holder.project_name = (TextView)row.findViewById(R.id.project_name);
+            holder.quote = (TextView)row.findViewById(R.id.quote_view);
 
+//            holder.image.setAdjustViewBounds(true);
             row.setTag(holder);
+
+            final RelativeLayout.LayoutParams layoutParams_big = new RelativeLayout.LayoutParams(100, 100);
+            final RelativeLayout.LayoutParams layoutParams_small = new RelativeLayout.LayoutParams(50, 50);
+
+
+            holder.quote.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    RelativeLayout tl = (RelativeLayout) row2.findViewById(R.id.relative_info);
+                    if(tl.getVisibility() == View.GONE || tl.getVisibility() == View.INVISIBLE){
+                     tl.setVisibility(View.VISIBLE);
+                     holder.image.setLayoutParams(layoutParams_big);
+                    }
+                    else    {
+                        tl.setVisibility(View.GONE);
+                    holder.image.setLayoutParams(layoutParams_small);
+                    }
+                }
+            });
         }
         else {
             holder = (DealHolder) row.getTag();

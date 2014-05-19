@@ -15,13 +15,16 @@ import java.net.URLEncoder;
 
 public class QuotesServiceAdapters {
 
+    String server_ip = "10.16.4.16";
+//    String server_ip = "10.0.2.2";
+
     public QuotesServiceAdapters() {
     }
 
     public String getProjects() {
         StringBuilder builder = new StringBuilder();
         HttpClient client = new DefaultHttpClient();
-        HttpGet httpGet = new HttpGet("http://10.16.4.16:8765/projects_distinct");
+        HttpGet httpGet = new HttpGet("http://" + server_ip + ":8765/projects_distinct");
         try {
             HttpResponse response = client.execute(httpGet);
             StatusLine statusLine = response.getStatusLine();
@@ -48,7 +51,7 @@ public class QuotesServiceAdapters {
     public String recentQuotes() {
         StringBuilder builder = new StringBuilder();
         HttpClient client = new DefaultHttpClient();
-        HttpGet httpGet = new HttpGet("http://10.16.4.16:8765/recent_10_quotes");
+        HttpGet httpGet = new HttpGet("http://" + server_ip + ":8765/recent_10_quotes");
         try {
             HttpResponse response = client.execute(httpGet);
             StatusLine statusLine = response.getStatusLine();
@@ -75,7 +78,7 @@ public class QuotesServiceAdapters {
     public String quotesByProject(String projectName) {
         StringBuilder builder = new StringBuilder();
         HttpClient client = new DefaultHttpClient();
-        HttpGet httpGet = new HttpGet("http://10.16.4.16:8765/project/quotes?project=" + projectName);
+        HttpGet httpGet = new HttpGet("http://" + server_ip + ":8765/project/quotes?project=" + projectName);
         try {
             HttpResponse response = client.execute(httpGet);
             StatusLine statusLine = response.getStatusLine();
@@ -103,7 +106,7 @@ public class QuotesServiceAdapters {
 
         StringBuilder builder = new StringBuilder();
         HttpClient client = new DefaultHttpClient();
-        HttpGet httpGet = new HttpGet("http://10.16.4.16:8765/all_search?search_param=" + URLEncoder.encode(search_param, "UTF-8"));
+        HttpGet httpGet = new HttpGet("http://" + server_ip + ":8765/all_search?search_param=" + URLEncoder.encode(search_param, "UTF-8"));
         try {
             HttpResponse response = client.execute(httpGet);
             StatusLine statusLine = response.getStatusLine();
