@@ -6,11 +6,18 @@
             android:orderInCategory="1"
             android:icon="@drawable/list"
             android:title="@string/red_string"
-            Quotes:showAsAction="ifRoom"/>
+            Quotes:showAsAction="always"/>
     <item
             android:id="@+id/add_quote"
             android:orderInCategory="2"
             android:icon="@drawable/plus_orange"
             Quotes:showAsAction="always"
             android:title="@string/green_string"/>
+
+    <item android:id="@+id/action_search"
+          android:title="@string/action_search"
+          android:icon="@drawable/orange_search"
+          Quotes:showAsAction="ifRoom|collapseActionView"
+          Quotes:actionViewClass="android.support.v7.widget.SearchView" />
+
 </menu>

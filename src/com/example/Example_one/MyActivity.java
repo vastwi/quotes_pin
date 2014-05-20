@@ -6,8 +6,10 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.SearchView;
 import android.view.*;
 import android.widget.*;
 import com.example.Grid.StaggeredGridView;
@@ -104,11 +106,11 @@ public class MyActivity extends ActionBarActivity {
 //        );
 //        spinner.setOnItemSelectedListener(this);
 
-        final EditText edittext = (EditText) findViewById(R.id.search);
-        edittext.setOnKeyListener(new View.OnKeyListener() {
-            public boolean onKey(View v, int keyCode, KeyEvent event) {
-                if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
-                        (keyCode == KeyEvent.KEYCODE_ENTER)) {
+//        final EditText edittext = (EditText) findViewById(R.id.search);
+//        edittext.setOnKeyListener(new View.OnKeyListener() {
+//            public boolean onKey(View v, int keyCode, KeyEvent event) {
+//                if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
+//                        (keyCode == KeyEvent.KEYCODE_ENTER)) {
 //                    LinearLayout mainView = (LinearLayout) findViewById(R.id.right);
 //                    mainView.removeAllViews();
 
@@ -118,20 +120,20 @@ public class MyActivity extends ActionBarActivity {
 //                                    R.layout.spinner_layout,
 //                                    MyActivity.this)
 //                    );
-
-                    String response = null;
-                    try {
-                        response = quotesServiceAdapters.searchFor(edittext.getText().toString().trim());
-                    } catch (UnsupportedEncodingException e) {
-                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-                    }
-                    DisplayResponse(response);
-
-                    return true;
-                }
-                return false;
-            }
-        });
+//
+//                    String response = null;
+//                    try {
+//                        response = quotesServiceAdapters.searchFor(edittext.getText().toString().trim());
+//                    } catch (UnsupportedEncodingException e) {
+//                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+//                    }
+//                    DisplayResponse(response);
+//
+//                    return true;
+//                }
+//                return false;
+//            }
+//        });
 
 
     }
@@ -151,6 +153,58 @@ public class MyActivity extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         MenuItem item = menu.findItem(R.id.list_quote);
         item.setVisible(false);
+
+
+
+        final MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
+
+//        final SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
+
+//        searchView.setIconifiedByDefault(false);
+        // Configure the search info and add any event listeners
+//        searchView.setOnKeyListener(new View.OnKeyListener() {
+//            public boolean onKey(View v, int keyCode, KeyEvent event) {
+//                if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
+//                        (keyCode == KeyEvent.KEYCODE_ENTER)) {
+//
+//                    String response = null;
+//                    try {
+//                        response = quotesServiceAdapters.searchFor(searchView.getQuery().toString().trim());
+//                    } catch (UnsupportedEncodingException e) {
+//                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+//                    }
+//                    DisplayResponse(response);
+//
+//                    return true;
+//                }
+//                return false;
+//            }
+//        });
+
+        final SearchView.OnQueryTextListener queryTextListener = new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String newText) {
+                // Do something
+                searchItem.collapseActionView();
+                return true;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String query) {
+                String response = null;
+                try {
+                    response = quotesServiceAdapters.searchFor(query);
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                }
+                DisplayResponse(response);
+                return true;
+            }
+        };
+
+        searchView.setOnQueryTextListener(queryTextListener);
+
         this.invalidateOptionsMenu();
         return true;
     }
@@ -163,6 +217,8 @@ public class MyActivity extends ActionBarActivity {
                 startActivity(i);
                 setContentView(R.layout.side);
                 return true;
+//            case R.id.action_search
+
             default:
                 if (mDrawerToggle.onOptionsItemSelected(item)) {
                     return true;
@@ -227,8 +283,8 @@ public class MyActivity extends ActionBarActivity {
         mDrawerList.setItemChecked(position,true);
         setTitle(R.string.app_name);
         mDrawerLayout.closeDrawer(mDrawerList);
-        EditText edittext = (EditText) findViewById(R.id.search);
-        edittext.setText("");
+//        EditText edittext = (EditText) findViewById(R.id.search);
+//        edittext.setText("");
         String response = quotesServiceAdapters.quotesByProject(listList.get(position));
         DisplayResponse(response);
     }
