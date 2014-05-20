@@ -60,11 +60,8 @@ public class MyActivity extends ActionBarActivity {
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
-//        mTitle = "Project List";
-
         mDrawerList.setAdapter(new ArrayAdapter<String>(this,
                 R.layout.drawer_list_item, listList));
-// Set the list's click listener
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
         mDrawerToggle = new ActionBarDrawerToggle(
@@ -81,7 +78,6 @@ public class MyActivity extends ActionBarActivity {
                 getActionBar().setTitle(R.string.app_name);
             }
 
-            /** Called when a drawer has settled in a completely open state. */
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
                 getActionBar().setTitle("Select Project");
@@ -91,51 +87,6 @@ public class MyActivity extends ActionBarActivity {
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-
-//        spinner = (Spinner) findViewById(R.id.spinner);
-//        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-//                R.layout.spinner_layout, listList);
-//        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//        spinner.setPrompt("Select Project");
-//
-//        spinner.setAdapter(
-//                new NothingSelectedSpinnerAdapter(
-//                        adapter,
-//                        R.layout.spinner_layout,
-//                        this)
-//        );
-//        spinner.setOnItemSelectedListener(this);
-
-//        final EditText edittext = (EditText) findViewById(R.id.search);
-//        edittext.setOnKeyListener(new View.OnKeyListener() {
-//            public boolean onKey(View v, int keyCode, KeyEvent event) {
-//                if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
-//                        (keyCode == KeyEvent.KEYCODE_ENTER)) {
-//                    LinearLayout mainView = (LinearLayout) findViewById(R.id.right);
-//                    mainView.removeAllViews();
-
-//                    spinner.setAdapter(
-//                            new NothingSelectedSpinnerAdapter(
-//                                    adapter,
-//                                    R.layout.spinner_layout,
-//                                    MyActivity.this)
-//                    );
-//
-//                    String response = null;
-//                    try {
-//                        response = quotesServiceAdapters.searchFor(edittext.getText().toString().trim());
-//                    } catch (UnsupportedEncodingException e) {
-//                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-//                    }
-//                    DisplayResponse(response);
-//
-//                    return true;
-//                }
-//                return false;
-//            }
-//        });
-
-
     }
 
     @Override
@@ -143,6 +94,7 @@ public class MyActivity extends ActionBarActivity {
         super.onStart();    //To change body of overridden methods use File | Settings | File Templates.
         String response = quotesServiceAdapters.recentQuotes();
         DisplayResponse(response);
+
 
         getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
@@ -158,29 +110,6 @@ public class MyActivity extends ActionBarActivity {
 
         final MenuItem searchItem = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
-
-//        final SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
-
-//        searchView.setIconifiedByDefault(false);
-        // Configure the search info and add any event listeners
-//        searchView.setOnKeyListener(new View.OnKeyListener() {
-//            public boolean onKey(View v, int keyCode, KeyEvent event) {
-//                if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
-//                        (keyCode == KeyEvent.KEYCODE_ENTER)) {
-//
-//                    String response = null;
-//                    try {
-//                        response = quotesServiceAdapters.searchFor(searchView.getQuery().toString().trim());
-//                    } catch (UnsupportedEncodingException e) {
-//                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-//                    }
-//                    DisplayResponse(response);
-//
-//                    return true;
-//                }
-//                return false;
-//            }
-//        });
 
         final SearchView.OnQueryTextListener queryTextListener = new SearchView.OnQueryTextListener() {
             @Override
@@ -217,7 +146,6 @@ public class MyActivity extends ActionBarActivity {
                 startActivity(i);
                 setContentView(R.layout.side);
                 return true;
-//            case R.id.action_search
 
             default:
                 if (mDrawerToggle.onOptionsItemSelected(item)) {
@@ -226,19 +154,6 @@ public class MyActivity extends ActionBarActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
-//    public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
-//
-//        if (position > 0) {
-//            EditText edittext = (EditText) findViewById(R.id.search);
-//            edittext.setText("");
-//            LinearLayout mainView = (LinearLayout) findViewById(R.id.right);
-////        mainView.removeAllViewsInLayout();
-//            String projectName = (String) spinner.getSelectedItem();
-//            String response = quotesServiceAdapters.quotesByProject(projectName);
-//            DisplayResponse(response);
-//        }
-//    }
 
     @Override
     public void onBackPressed() {
@@ -277,14 +192,10 @@ public class MyActivity extends ActionBarActivity {
         }
 
     private void selectItem(int position) {
-//        Toast.makeText(this, R.string.app_name, Toast.LENGTH_SHORT).show();
 
-// Highlight the selected item, update the title, and close the drawer
         mDrawerList.setItemChecked(position,true);
         setTitle(R.string.app_name);
         mDrawerLayout.closeDrawer(mDrawerList);
-//        EditText edittext = (EditText) findViewById(R.id.search);
-//        edittext.setText("");
         String response = quotesServiceAdapters.quotesByProject(listList.get(position));
         DisplayResponse(response);
     }
@@ -295,11 +206,11 @@ public class MyActivity extends ActionBarActivity {
         mDrawerToggle.syncState();
     }
 
-//    @Override
-//    public void onConfigurationChanged(Configuration newConfig) {
-//        super.onConfigurationChanged(newConfig);
-//        mDrawerToggle.onConfigurationChanged(newConfig);
-//    }
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        mDrawerToggle.onConfigurationChanged(newConfig);
+    }
 
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override

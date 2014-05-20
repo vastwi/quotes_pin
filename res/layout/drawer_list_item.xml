@@ -3,4 +3,8 @@
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
           android:text="New Text"
+          android:layout_marginRight="5dip"
+          android:textSize="20dip"
+          android:textColor="#ff6600"
+          android:background="@drawable/border"
           android:id="@+id/textView"/>

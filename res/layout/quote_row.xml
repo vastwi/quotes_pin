@@ -12,51 +12,55 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/thumbnail"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
 
     <com.example.Grid.util.DynamicHeightImageView
             android:id="@+id/image"
             android:src="@drawable/rajini_new"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:gravity="center"
             />
+     </RelativeLayout>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
                   android:id="@+id/relative_info"
                   android:visibility="gone"
+                  android:layout_alignTop="@+id/thumbnail"
+                  android:layout_toRightOf="@+id/thumbnail"
             android:gravity="right">
+
+
 
         <TextView
                 android:id="@+id/name"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingBottom="4dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="8dp"
-                android:gravity="right"
-                android:textSize="18sp"
                 android:textColor="#040404"
                 android:typeface="sans"
+                android:paddingLeft="10dip"
+                android:textSize="15dip"
                 android:textStyle="bold"/>
 
         <TextView
                 android:id="@+id/project_name"
-                android:layout_width="match_parent"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
-                android:paddingRight="8dp"
                 android:layout_below="@id/name"
-                android:gravity="right"
                 android:textColor="#343434"
-                android:textSize="10dip"/>
+                android:textSize="10dip"
+                android:paddingLeft="10dip"
+                android:layout_marginTop="1dip"
+                android:layout_toRightOf="@+id/thumbnail" />
 
     </RelativeLayout>
 
-        <!--android:paddingBottom="4dp"-->
-        <!--android:paddingTop="4dp"-->
 
     </RelativeLayout>
 

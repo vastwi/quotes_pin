@@ -7,7 +7,7 @@
               android:targetSdkVersion="19"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
-    <application android:label="@string/app_name" android:icon="@drawable/quote">
+    <application android:label="@string/app_name" android:logo="@drawable/logo" android:icon="@drawable/quote">
         <activity android:name="com.example.Example_one.MyActivity"
                   android:label="@string/app_name"
                   android:theme="@style/Theme.AppCompat" >
@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity
+                android:theme="@style/Theme.AppCompat"
                 android:name="com.example.Example_one.SideActivity">
         </activity>
     </application>

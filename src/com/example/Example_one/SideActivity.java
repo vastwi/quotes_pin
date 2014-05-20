@@ -3,6 +3,7 @@ import android.app.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,7 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 //import com.example.quotes_pin.R;
 
-public class SideActivity extends Activity implements View.OnClickListener {
+public class SideActivity extends ActionBarActivity implements View.OnClickListener {
 
         Button bt1;
         List<String> listList = new ArrayList<String>();
@@ -117,6 +118,8 @@ public class SideActivity extends Activity implements View.OnClickListener {
             getMenuInflater().inflate(R.menu.menu_main, menu);
             MenuItem item = menu.findItem(R.id.add_quote);
             item.setVisible(false);
+            MenuItem item2 = menu.findItem(R.id.action_search);
+            item2.setVisible(false);
             this.invalidateOptionsMenu();
             return true;
         }

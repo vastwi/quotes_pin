@@ -2,6 +2,7 @@ package com.example.Resources;
 
 import android.app.Activity;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,11 +49,17 @@ public class DataAdapter extends ArrayAdapter<Data> {
 //            holder.image.setAdjustViewBounds(true);
             row.setTag(holder);
 
-            final RelativeLayout.LayoutParams layoutParams_big = new RelativeLayout.LayoutParams(100, 100);
-            final RelativeLayout.LayoutParams layoutParams_small = new RelativeLayout.LayoutParams(50, 50);
+            final int width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 35, activity.getResources().getDisplayMetrics());
+            final int height = (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 35, activity.getResources().getDisplayMetrics());
+
+            final int width_big = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 50, activity.getResources().getDisplayMetrics());
+            final int height_big = (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 50, activity.getResources().getDisplayMetrics());
+
+            final RelativeLayout.LayoutParams layoutParams_big = new RelativeLayout.LayoutParams(width_big, height_big);
+            final RelativeLayout.LayoutParams layoutParams_small = new RelativeLayout.LayoutParams(width , height );
 
 
-            holder.quote.setOnClickListener(new View.OnClickListener() {
+            row.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
